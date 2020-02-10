@@ -94,17 +94,21 @@
 
 /* -- Esercizio 12 -- */
 .ex-12-button:hover .ex-12-top-white{
-    animation: ahead 2s linear;
+    animation: ahead 1s linear;
 }
 @keyframes ahead {
-  100% { transform: translate(50px);}
+  0% { left: 10%;}
+  50% { left: 60%;}
+  100% { left: 10%;}
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
     animation: backward 2s linear;
 }
 @keyframes backward {
-  100% { transform: translate(-20px);}
+    0% { right: 10%;}
+    50% { right: 60%;}
+    100% { right: 10%;}
 }
 
 /* -- Esercizio 13 -- */
