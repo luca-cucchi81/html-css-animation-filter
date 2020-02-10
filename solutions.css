@@ -94,7 +94,7 @@
 
 /* -- Esercizio 12 -- */
 .ex-12-button:hover .ex-12-top-white{
-    animation: ahead 1s linear;
+    animation: ahead 2s linear;
 }
 @keyframes ahead {
   0% { left: 10%;}
