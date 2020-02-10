@@ -109,7 +109,7 @@
 
 /* -- Esercizio 13 -- */
 .ex-13-button:hover .ex-13-top-white {
-    animation: full-move 2s linear infinite;
+    animation: full-move 2s linear;
 }
 
 @keyframes full-move {
@@ -133,7 +133,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: fullback-move 2s linear infinite;
+    animation: fullback-move 2s linear;
 }
 
 @keyframes fullback-move {
